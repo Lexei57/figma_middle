@@ -1,0 +1,433 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    margin:auto;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background: #E5E5E5;
+}
+.navigation{
+    text-align: center;
+    padding-top: 17px;
+    word-spacing: 30px;
+}
+.navigation a{
+    color:black;
+    text-decoration: none;
+}
+.delivery{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 16px;
+    word-spacing: 30px;
+}
+.link{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 16px;
+    word-spacing: 30px;
+}
+.verh{
+    display: flex;
+    margin-left: 300px;
+}
+.number{
+    margin-left: 470px;
+    margin-top: 45px;
+    font-style: 16px;
+    font-weight: 400px;
+    line-height: 19px;
+}
+.logotype{
+    margin-top: 20px;
+    width: 200px;
+}
+.buttom button{
+    top: 80px;
+    left: 1120px;
+    position:absolute;
+    width: 170px;
+    height: 40px;
+    background:none;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F13C6E;
+    cursor: pointer;
+    font-weight: 400;
+    font-style: 14px;
+    line-height: 16px;
+}
+.top_line{
+margin-top: 20px;
+margin: solid;
+}
+.navigation_middle{
+    text-align: center;
+    word-spacing: 40px;
+    padding-top: 30px;
+}
+.navigation_middle a{
+    color: black;
+    text-decoration: none;
+    line-height: 19px;
+    font-size: 16px;
+}
+.chair{
+    margin-top: 30px;
+    width: 100%;
+    height: 478px;
+}
+.kreslo{
+    width: 100%;
+}
+/* .super_kreslo{
+    width: 308px;
+    height: 44px;
+    left: 405px;
+    top: 441px
+} */
+.super_kreslo p{
+    position: absolute;
+    top: 391px;
+    left: 255px;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    line-height: 56px;
+}
+.opisanie{
+    position: absolute;
+    top: 500px;
+    left: 255px;
+    width: 320px;
+    height: 35px;
+    color: white;
+
+}
+.opisanie a{
+    font-size: 14px;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+}
+.button_inimg{
+    position: absolute;
+    top: 590px;
+    left: 255px;
+    width: 170px;
+    height: 40px;
+    background:none;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    cursor: pointer;
+    font-weight: 400;
+    font-style: 14px;
+    line-height: 16px;
+    color: white;
+}
+.block{
+    width: 100%;
+    height: 546px;
+    background: #E5E5E5;
+}
+.block > p{
+    padding-top: 80px;
+    margin-left: 227px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.box-model{
+    margin-top: 38px;
+    margin-left: 200px;
+}
+.box-model > div{
+    background: white;
+    width: 280px;
+    height: 400px;
+    float:left;
+    border: 30px solid #E5E5E5;
+    box-sizing: border-box;
+}
+.green-chair > img{
+    width: 125px;
+    height: 166px;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+.green-chair > .opis{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 30px;
+    width: 195px;
+    height: 33px;
+}
+.green-chair > .cena{
+    font-size: 21px;
+    padding-top: 20px;
+    padding-left: 70px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+.green-chair > button{
+    margin-top: 10px;
+    margin-left: 45px;
+    background:#F13C6E;
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+/* .buy{
+    width: 130px;
+    height: 35px;
+} */
+.block2{
+    width: 100%;
+    height: 500px;
+    background: #E5E5E5;
+}
+.box-model2{
+padding-top: 100px;
+padding-left: 200px;
+}
+.box-model2 > div{
+    float: left;
+    width: 560px;
+    height: 262px;
+    background:#F13C6E;
+    /* задает границы */
+    border: 30px solid #E5E5E5;
+    /* Дает учет границ */
+    box-sizing: border-box;
+}
+.convert > .bonus{
+    padding-top: 35px;
+    padding-left: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+.convert > .roz{
+    width: 270px;
+    height: 40px;
+    padding-top: 25px;
+    padding-left: 40px;
+    color: white
+}
+.convert > input{
+    width: 225px;
+    height: 35px;
+    background: white;
+    border-radius: 30px;
+    border: none;
+    padding-left: 30px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.konvert{
+position: absolute;
+top: 1420px;
+left: 560px;
+}
+.car{
+    position: absolute;
+    top: 1440px;
+    left: 1060px;
+}
+.convert > button{
+    width: 170px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 30px;
+    background: #F13C6E;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+.setka{
+    padding-bottom: 81px;
+    background: #E5E5E5;
+}
+.impuls{
+    margin-left: 225px;
+}
+.impuls td{
+    padding-left: 58px;
+    padding-right:58px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border: 1px solid #EFEFEF;
+    background: white;
+}
+.box-model3{
+    margin-top: 38px;
+    margin-left: 200px;
+}
+.box-model3 > div{
+    background: white;
+    width: 280px;
+    height: 400px;
+    float:left;
+    border: 30px solid #E5E5E5;
+    box-sizing: border-box;
+}
+.green-chair3 > img{
+    width: 125px;
+    height: 166px;
+    padding-top: 25px;
+    padding-left: 40px;
+}
+.green-chair3 > .opis{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 30px;
+    width: 195px;
+    height: 33px;
+}
+.green-chair3 > .cena{
+    font-size: 21px;
+    padding-top: 20px;
+    padding-left: 70px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+}
+.green-chair3 > button{
+    margin-top: 10px;
+    margin-left: 45px;
+    background:#F13C6E;
+    width: 130px;
+    height: 35px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.prefooter{
+    height: 626px;
+    background: #E5E5E5;
+}
+.prefooter > p {
+    padding-top: 80px;
+    margin-left: 227px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+.information{
+    
+    height: 700px;
+    background: white;
+}
+.box-model4{
+    display: flex;
+    margin-left: 227px;
+}
+.box-model4 p{
+    padding-right: 186px;
+    padding-top: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+}
+.box-model4 hr{
+    background: black;
+    width: 255px;
+}
+.kategorii{
+    margin-top: 25px;
+    margin-left: 227px;
+}
+.kategorii td{
+    padding-right: 195px;
+    padding-bottom: 20px;
+    color: #828282;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+}
+.kategorii a{
+    color: black;
+    text-decoration: none;
+}
+.footline{
+    background: #EFEFEF;
+}
+.knopki{
+    display: flex;
+    margin-left: 227px;
+    margin-top: 37px;
+}
+.knopki button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid #F13C6E;
+    background: none;
+    padding-top: 4px;
+    margin-right: 20px;
+}
+.number1{
+    position: absolute;
+    top: 3329px;
+    left: 960px;
+    font-style: 16px;
+    font-weight: 400px;
+    line-height: 19px;
+}
+.buttom1 button{
+    top: 3318px;
+    left: 1120px;
+    position:absolute;
+    width: 170px;
+    height: 40px;
+    background:none;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F13C6E;
+    cursor: pointer;
+    font-weight: 400;
+    font-style: 14px;
+    line-height: 16px;
+}
+footer{
+    background: #E5E5E5;
+    height: 64px;
+}
+.footer-inf{
+    display: flex;
+    margin-left: 230px;
+}
+.footer-inf p{
+    width: 584px;
+    padding-right:315px;
+    padding-top: 30px;
+    color: #828282;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
